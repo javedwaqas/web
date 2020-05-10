@@ -254,6 +254,7 @@ section {
 
 .card .card-description {
   padding: 0 8px;
+  text-align: justify;
 }
 
 .card-meta-blogpost{
