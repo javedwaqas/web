@@ -130,16 +130,23 @@ nav ul {
 #logo-img {
   display: flex;
   height: 100%;
-  background: #111;
-  padding: 0 32px;
+  /* background: #111; */
+  /* padding: 0 20px; */
   align-items: center;
   color: white;
   transition: 0.4s;
-  visibility: hidden;
+  /* visibility: hidden; */
+
+}
+
+#logo-img a {
+  height: 60px;
+  padding: 0 15px;
 }
 
 #logo-img img {
-  height: 100px;
+  height: 100%;
+  border-radius: 50%;
 }
 
 #logo-img:hover {
