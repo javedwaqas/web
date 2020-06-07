@@ -141,8 +141,8 @@ nav ul {
 
 #logo-img a {
   height: 50px;
-  padding: 0 15px;
-  padding-bottom: 5px; /* take care of image border */ 
+  padding: 0 16px;
+  padding-bottom: 5px; /* take care of image border */
 }
 
 #logo-img img {
@@ -155,13 +155,14 @@ nav ul {
   background: black;
 }
 
-#menu-icon {
+.menu-icon {
   height: 100%;
   font-size: 28px;
   padding: 0 4px;
   color: #eee;
   display: none;
   align-items: center;
+  transition: 4s;
 }
 
 /* Search Icon */
@@ -475,7 +476,7 @@ ol.custom li:hover{
     display: none;
   }
 
-  #menu-icon {
+  .menu-icon {
     display: flex;
   }
 
