@@ -140,12 +140,14 @@ nav ul {
 }
 
 #logo-img a {
-  height: 60px;
+  height: 50px;
   padding: 0 15px;
+  padding-bottom: 5px; /* take care of image border */ 
 }
 
 #logo-img img {
   height: 100%;
+  border: 2px solid #eee;
   border-radius: 50%;
 }
 
